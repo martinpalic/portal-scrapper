@@ -13,11 +13,12 @@ public class Offer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String coverImageLink;
     private String headline;
     private String vendorId;
-    private String price;
+    private int price;
     private String address;
-    private String roomCount;
-    private String size;
+    private int roomCount;
+    private int size;
     private String text;
 }
